@@ -1,0 +1,49 @@
+body {
+    max-width: 42em;
+    margin: 0 auto;
+    padding: 2em 1em 4em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05em;
+    line-height: 1.55;
+    color: #222;
+    background: #fff;
+}
+
+header h1 {
+    font-size: 1.4em;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    margin: 0 0 0.25em;
+}
+
+nav {
+    margin-bottom: 0.75em;
+}
+
+header hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0 0 1.5em;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 1.75em 0 0.5em;
+}
+
+a {
+    color: #0645ad;
+}
+
+.entry {
+    margin: 0 0 1em;
+}
+
+.links {
+    color: #555;
+}
+
+address {
+    font-style: normal;
+}
