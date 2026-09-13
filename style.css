@@ -47,3 +47,9 @@ a {
 address {
     font-style: normal;
 }
+
+.terms {
+    margin: -0.35em 0 0.6em;
+    font-size: 0.9em;
+    color: #555;
+}
