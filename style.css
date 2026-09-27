@@ -53,3 +53,74 @@ address {
     font-size: 0.9em;
     color: #555;
 }
+
+/* reading.html: three-column reading lists */
+body.wide {
+    max-width: 72em;
+}
+
+body.wide > header,
+body.wide main > p {
+    max-width: 42em;
+}
+
+.reading {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2.5em;
+    margin-top: 1.5em;
+}
+
+.reading h2 {
+    margin: 0;
+}
+
+.reading .pace {
+    margin: 0 0 0.75em;
+    font-size: 0.85em;
+    color: #555;
+}
+
+.books {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.92em;
+    line-height: 1.4;
+}
+
+.books li {
+    margin: 0 0 0.55em;
+}
+
+.books .when {
+    display: block;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.books li.done {
+    color: #888;
+}
+
+.books li.now {
+    border-left: 3px solid #0645ad;
+    padding-left: 0.5em;
+    margin-left: calc(-0.5em - 3px);
+}
+
+.books li.now .when {
+    color: #0645ad;
+    font-weight: bold;
+}
+
+.books .until {
+    color: #777;
+    font-size: 0.85em;
+}
+
+@media (max-width: 50em) {
+    .reading {
+        grid-template-columns: 1fr;
+    }
+}
